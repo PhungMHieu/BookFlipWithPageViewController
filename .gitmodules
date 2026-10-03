@@ -1,0 +1,3 @@
+[submodule "Packages/PageCurlKit"]
+	path = Packages/PageCurlKit
+	url = https://github.com/PhungMHieu/PageCurlKit.git

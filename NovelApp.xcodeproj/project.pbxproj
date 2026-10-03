@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		847E9A1B306EC53F002EE902 /* PageCurlKit in Frameworks */ = {isa = PBXBuildFile; productRef = 847E9A1A306EC53F002EE902 /* PageCurlKit */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		847E9A0B306EC2A9002EE902 /* NovelApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NovelApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -23,6 +27,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				847E9A1B306EC53F002EE902 /* PageCurlKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +70,7 @@
 			);
 			name = NovelApp;
 			packageProductDependencies = (
+				847E9A1A306EC53F002EE902 /* PageCurlKit */,
 			);
 			productName = NovelApp;
 			productReference = 847E9A0B306EC2A9002EE902 /* NovelApp.app */;
@@ -94,6 +100,9 @@
 			);
 			mainGroup = 847E9A02306EC2A9002EE902;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				847E9A19306EC53F002EE902 /* XCLocalSwiftPackageReference "Packages/PageCurlKit" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 847E9A0C306EC2A9002EE902 /* Products */;
 			projectDirPath = "";
@@ -328,6 +337,21 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		847E9A19306EC53F002EE902 /* XCLocalSwiftPackageReference "Packages/PageCurlKit" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = Packages/PageCurlKit;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		847E9A1A306EC53F002EE902 /* PageCurlKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 847E9A19306EC53F002EE902 /* XCLocalSwiftPackageReference "Packages/PageCurlKit" */;
+			productName = PageCurlKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 847E9A03306EC2A9002EE902 /* Project object */;
 }
